@@ -11,15 +11,14 @@ View the example app here: https://nextjs-autumn-template.vercel.app/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/useautumn/react-python-autumn-template.git
+git clone https://github.com/justanotherbyte/python-ssr-autumn-template.git
 
-# Backend
+# install dependencies
 uv add . --dev
 ```
 
 > [!NOTE]
 > Python 3.9+ is required.
-
 
 2. Create an account at [app.useautumn.com](https://app.useautumn.com)
 
