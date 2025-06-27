@@ -1,0 +1,23 @@
+[project]
+name = "python-ssr-autumn-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "aiohttp>=3.12.13",
+    "autumn-py",
+    "fastapi>=0.115.14",
+    "jinja2>=3.1.6",
+    "python-multipart>=0.0.20",
+    "uvicorn>=0.34.3",
+]
+
+[tool.uv.sources]
+autumn-py = { git = "https://github.com/useautumn/autumn-py" }
+python-ssr-autumn-template = { workspace = true }
+
+[dependency-groups]
+dev = [
+    "python-ssr-autumn-template",
+]
