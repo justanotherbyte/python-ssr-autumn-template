@@ -46,5 +46,4 @@ async def checkout(request: Request, product_id: str):
     autumn: AsyncClient = request.app.state.autumn
 
     attach = await autumn.attach(CUSTOMER_ID, product_id=product_id)
-    print(attach.checkout_url)
     return RedirectResponse(attach.checkout_url or "/")
