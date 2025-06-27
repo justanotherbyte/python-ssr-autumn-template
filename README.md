@@ -1,8 +1,8 @@
-# React + Python Autumn Starter Template
+# Python SSR Autumn Starter Template
 
 [Autumn](https://useautumn.com) is an open-source layer between Stripe and your application, allowing you to create any pricing model and embed it with a few lines of code.
 
-This template demonstrates how you can set up pricing for a simple AI chatbot application using a React frontend and a Python backend.
+This template demonstrates how you can set up pricing for a simple AI chatbot application using a Python Backend.
 
 View the example app here: https://nextjs-autumn-template.vercel.app/
 
